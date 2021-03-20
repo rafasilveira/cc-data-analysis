@@ -1,6 +1,9 @@
 .DS_Store
+.vscode
 
 input
+_input
 data
 extrato
 temp.csv
+database.db

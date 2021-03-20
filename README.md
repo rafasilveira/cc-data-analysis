@@ -7,6 +7,7 @@ How much do I spend? Where is my money going? How is my financial habits changin
 ## What's inside
 - [x] Read CSV files
 - [x] Create aggregated CSV
+- [x] Store data in a sqlite database
 - [ ] Do some data analysis
 - [ ] Match credit card expenses with account statement
 - [ ] Create markdown report
@@ -16,7 +17,12 @@ I have Nubank. Things will be easier if you use it too. If you don't, you might 
 
 - Create a directory called `input`
 - Paste your csv files there
+- Install dependencies
 - `python3 main.py`
+
+### Dependencies
+- unidecode `pip3 install unidecode`
+- matplotlib `pip3 install matplotlib`
 
 ### Nubank
 Nubank provides monthly credit card csv files. Go to the web page and manually download a file for each month.
